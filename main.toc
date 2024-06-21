@@ -1,0 +1,16 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Marco Teórico}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Corriente Alterna}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Voltaje en corriente alterna}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Intensidad de la corriente alterna}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Potencia y consumo de energía en circuitos de CA}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Técnicas para la medición de la intensidad de la corriente}{5}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Sensor ACS712}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Microcontrolador ESP32}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Regla compuesta de Simpson}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Aplicación de la regla de Simpson para cálcular el consumo de energía eléctrica}{5}{subsubsection.2.4.1}%
+\contentsline {section}{\numberline {3}Descripción del experimento}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Sistema de adquisición de datos}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Resultados}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Conclusiones}{5}{section.4}%

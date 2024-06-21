@@ -1,0 +1,19 @@
+\begin{thebibliography}{}
+
+\bibitem[Einstein, 1905]{einstein1905}
+Einstein, A. (1905).
+\newblock Zur elektrodynamik bewegter körper.
+\newblock {\em Annalen der Physik}, 322(10):891--921.
+
+\bibitem[Knuth, 1984]{knuth1984texbook}
+Knuth, D.~E. (1984).
+\newblock {\em The \TeX{}book}.
+\newblock Addison-Wesley, Reading, MA.
+
+\bibitem[Lamport, 1994]{lamport1994latex}
+Lamport, L. (1994).
+\newblock \TeX{}: A document preparation system.
+\newblock Addison-Wesley, Reading, MA.
+\newblock ISBN 0-021-52983-1.
+
+\end{thebibliography}

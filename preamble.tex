@@ -1,0 +1,94 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{geometry}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% Configuración de márgenes según APA
+\geometry{
+  left=1in,
+  right=1in,
+  top=1in,
+  bottom=1in,
+}
+
+% Configuración de la fuente y espaciado
+\usepackage{mathptmx} % Times New Roman para el texto
+\usepackage[scaled=.92]{helvet} % Arial para el sans-serif
+\usepackage{setspace}
+\setstretch{2} % Doble espaciado según APA
+
+% Otros paquetes necesarios
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{tocloft}
+\graphicspath{{./figs/}}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{titling}
+\usepackage{bookmark}
+\usepackage{listings}
+\usepackage{mathtools} % Times New Roman para el texto
+\urlstyle{same}
+
+% Configuración de enlaces y colores
+\hypersetup{
+   colorlinks=true,
+   urlcolor=blue, % Cambiado a azul según APA
+   linkcolor=black,
+   citecolor=black,
+   filecolor=magenta,
+   pdfpagemode=FullScreen,
+}
+
+% Encabezado y pie de página
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Limpiar todos los encabezados y pies de página
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{15pt} % Ajustar la altura del encabezado
+
+% Configuración específica del encabezado
+\fancyhead[C]{\footnotesize} % Título del trabajo a la derecha
+\fancyhead[L]{\footnotesize\leftmark} % Capítulo o sección en el centro
+\fancyhead[R]{\footnotesize\thepage} % Número de página a la izquierda
+
+% Configuración específica del pie de página
+\fancyfoot[R]{\footnotesize\theauthor} % Grupo a la derecha
+\fancyfoot[C]{\footnotesize} % Sin información en el centro
+\fancyfoot[L]{\footnotesize\asignatura} % Asignatura a la izquierda
+\renewcommand{\footrulewidth}{0.4pt} % Línea del pie de página
+
+% referencias
+\usepackage{natbib}
+\bibliographystyle{apalike} % Estilo de citas y referencias APA
+
+% Ajustes adicionales para listados y otros
+\usepackage{minted}
+\usemintedstyle{friendly}
+\definecolor{backcolour}{gray}{0.95}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+% Otros ajustes de formato según tus necesidades específicas
+% Local Variables:
+% TeX-command-extra-options: "-shell-escape"
+% End:
